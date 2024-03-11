@@ -15,8 +15,12 @@ To run the test suite, execute the following command:
 npx hardhat test
 ```
 
-For deploying on a local Ethereum node, use the following command:
+Run a local node:
+```bash
+npx hardhat node
+```
 
+Deploy smart contract to the local node:
 ```bash
 npx hardhat run scripts/deploy.js --network localhost
 ```
